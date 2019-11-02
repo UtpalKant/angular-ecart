@@ -1,0 +1,107 @@
+*{
+    font-family: 'Roboto', sans-serif;
+  }
+  
+  .wrapper{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  
+  .login-wrap{
+    width: 400px;
+    height: 300px;
+    background-color: #3498DB;
+    border-radius: 3px;
+    position: relative;
+    overflow: hidden;
+  }
+  
+  .login-wrap h1{
+    font-size: 24px;
+    color: white;
+    text-align: center;
+  }
+  
+  .login-wrap input{
+    display: block;
+    width: 80%;
+    padding: 15px;
+    margin: auto;
+    margin-top: 30px;
+    border: none;
+    border-radius: 3px;
+  }
+  
+  .login-wrap input[type="submit"]{
+    display: block;
+    width: 40%;
+    padding: 15px;
+    margin: auto;
+    margin-top: 30px;
+    border: none;
+    border-radius: 3px;
+    font-size: 16px;
+    background-color: #2980B9;
+    color: white;
+    z-index: 9;
+  }
+  
+  .login-wrap input[type="submit"]:hover{  
+    background-color: white;
+    color: #2980B9;
+    font-size: 18px;
+    border-bottom: 3px solid #2980B9;
+    -webkit-transition: all 0.4s ease-in-out;
+    -moz-transition: all 0.4s ease-in-out;
+    -o-transition: all 0.4s ease-in-out;
+    -ms-transition: all 0.4s ease-in-out;
+  }
+  
+  .thankyou{
+    width: 400px;
+    height: 275px;
+    border-bottom: 25px solid #34495E;
+    background-color: #2C3E50;
+    border-radius: 3px;
+    position: absolute;
+    bottom: -300px;
+  }
+  
+  .thankyouhover{
+    position: absolute;
+    bottom: 0px;
+    -webkit-transition: all 0.2s ease-in-out;
+    -moz-transition: all 0.2s ease-in-out;
+    -o-transition: all 0.2s ease-in-out;
+    -ms-transition: all 0.2s ease-in-out;
+  }
+  
+  .tk-tag{
+    display: block;
+    color: white;
+    font-size: 45px;
+    text-align: center;
+    letter-spacing: 2px;
+    margin-top: 60px;
+  }
+  
+  .tk-text{
+    display: block;
+    color: white;
+    font-size: 16px;
+    text-align: center;
+  }
+  .aut{
+    display: block;
+    color: white;
+    font-size: 12px;
+    text-align: center;
+    margin-top: 5px;
+  }
+  .aut a{color: white;}
+  
+  
+  
+  

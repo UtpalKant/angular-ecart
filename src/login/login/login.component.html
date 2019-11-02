@@ -1,0 +1,19 @@
+<div class="wrapper">
+
+<form name="form" #loginForm="ngForm" (submit)="getLogin(loginForm.value.username, loginForm.value.password);" >
+
+    <div class="login-wrap" *ngIf="true">
+
+        <h1>E-Cart Login</h1>
+        <input type="text" placeholder="Enter Username" name="username" ngModel /> 
+        <input type="password" placeholder="Enter Password" name="password" ngModel />
+        <input type="submit" value="submit">
+
+    </div>
+
+    {{loginForm.value | json}}
+
+</form>
+
+
+</div>
